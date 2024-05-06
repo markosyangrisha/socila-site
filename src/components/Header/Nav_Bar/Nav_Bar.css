@@ -1,0 +1,19 @@
+.nav-bar_inner {
+  display: flex;
+  gap: 70px;
+}
+
+.nav-bar_inner svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.nav-bar__svg-block {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.activity {
+  border-bottom: 3px solid rgb(4, 60, 120);
+	border-radius: 3px;
+}
