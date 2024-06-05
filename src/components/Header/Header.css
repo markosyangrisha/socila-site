@@ -1,11 +1,12 @@
 .header {
   background-color: white;
-  padding: 8px 0;
   box-shadow: rgba(0, 0, 0, 0.03) 0px 3px 8px;
+  padding: 8px 0;
 }
 
 .header_inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }

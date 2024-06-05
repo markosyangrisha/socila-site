@@ -1,5 +1,7 @@
+
 <template>
-  <div class="group search">
+  <div class="search">
+  <div class="group">
     <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
       <g>
         <path
@@ -9,9 +11,14 @@
     </svg>
     <input placeholder="Search" type="search" class="input" />
   </div>
+  <Search_IconVue class="search_Icon"/>
+  </div>
 </template>
 
 <script setup>
+import Search_IconVue from '@/assets/svg/Search_Icon.vue';
+
 </script>
+
 
 <style scoped src="./Search.css"></style>

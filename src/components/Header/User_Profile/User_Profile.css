@@ -11,6 +11,12 @@
 	color: #6e6b6b;
 }
 
+@media screen and (max-width:620px){
+	.user_name {
+		display: none;
+	}
+}
+
 .user-profile_photo {
 	width: 3em;
 	height: 3em;
